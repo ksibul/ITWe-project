@@ -1,0 +1,43 @@
+/* Navigation bar */
+
+    .nav {
+      background-color: #39325C;
+      overflow: hidden;
+    }
+
+    .nav a {
+      float: left;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    /* Hover */
+
+    .nav a.link:hover {
+      background-color: #6B6392;
+      color: #ffffff;
+    }
+
+    /* Active link
+    .nav a.active {
+      text-decoration: underline;
+      color: #ffffff;
+    }
+    */
+
+    /* Logo */
+    .nav a.top-logo {
+      color: #ffffff;
+      font-family: arial;
+      font-size: 16px;
+    }
+
+
+/*footer*/
+
+    footer {
+        background-color: #39325C;
+    }
