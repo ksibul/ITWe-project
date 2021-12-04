@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 /* Navigation bar */
 
     .nav {
@@ -37,9 +41,13 @@
       font-family: Copperplate;
     }
 
+    .hero-img {
+        width: 100%;
+    }
 
 /*footer*/
 
     footer {
+        color: #ffffff;
         background-color: #39325C;
     }
