@@ -2,6 +2,11 @@ body {
     background-color: white;
 }
 
+body, html {
+    font-family: Verdana, Helvetica, sans-serif;
+    height: 100%;
+}
+
 /* Navigation bar */
 
     .nav {
@@ -27,6 +32,8 @@ body {
       color: #ffffff;
     }
 
+     /* Responsive */
+
     @media screen and (max-width: 600px) {
       .nav a:not(:first-child) {display: none;}
       .nav a.icon {
@@ -49,17 +56,11 @@ body {
       }
     }
 
-
     /* Logo */
     .nav a.top-logo {
       color: #ffffff;
       font-size: 18px;
       font-family: Copperplate;
-    }
-
-    body, html {
-        font-family: Verdana, Helvetica, sans-serif;
-        height: 100%;
     }
 
 /* The hero image */
@@ -92,14 +93,14 @@ body {
       outline: 0;
       display: inline-block;
       padding: 10px 25px;
-      color: black;
-      background-color: #ddd;
+      color: #6B6392;
+      background-color: white;
       text-align: center;
       cursor: pointer;
     }
 
     .hero-txt button:hover {
-      background-color: #555;
+      background-color: #6B6392;
       color: white;
     }
 
@@ -123,6 +124,7 @@ body {
 
 .column:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
 }
 
 .container {
