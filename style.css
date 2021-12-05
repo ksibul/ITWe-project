@@ -97,6 +97,7 @@ body, html {
 
     .hero-txt button {
       border: none;
+      border-radius: 5px;
       outline: 0;
       display: inline-block;
       padding: 10px 25px;
@@ -117,13 +118,24 @@ body, html {
   box-sizing: border-box;
 }
 
+.card-section p {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin: 0,0,40px,40px;
+}
+
+.card-section h4 {
+  margin: 12px;
+}
+
 .card-row img {
-    width: 100%;
+  width: 100%;
+  border-radius: 5px 5px 0 0 ;
 }
 
 .card-row {
-    width: 100%;
-    padding: 0 10%;
+  width: 100%;
+  padding: 0 10%;
 }
 
 .card-section {
@@ -131,28 +143,30 @@ body, html {
 }
 
 .card-section button {
-    text-align: center;
-    margin: 20px;
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: white;
-    background-color: #39325C;
-    cursor: pointer;
-    }
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: #39325C;
+  cursor: pointer;
+  }
 
 .card-section button:hover {
-      background-color: #6B6392;
-      color: white;
-    }
+  background-color: #6B6392;
+  color: white;
+}
 
 .container {
-    padding: 2px 16px;
+    padding: 0 16px 16px;
 }
 
 .column {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 3px 6px 0 #CCC6D2;
+  border-radius: 5px;
   transition: 0.5s;
   width: 30%;
   float: left;
@@ -160,7 +174,7 @@ body, html {
 }
 
 .column:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 #D6D2DB;
   cursor: pointer;
 }
 
