@@ -41,6 +41,12 @@ body, html {
         float: right;
         display: block;
       }
+      .nav a.icon div{
+      width: 24px;
+      height: 2px;
+      background-color: white;
+      margin: 3px 2px;
+    }
     }
 
     @media screen and (max-width: 600px) {
