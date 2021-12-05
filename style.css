@@ -70,7 +70,7 @@ body, html {
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/house-of-gucci-hero.jpeg");
 
       /* Set a specific height */
-      height: 90%;
+      height: 100%;
 
       /* Position and center the image to scale nicely on all screens */
       background-position: center;
@@ -94,15 +94,15 @@ body, html {
       outline: 0;
       display: inline-block;
       padding: 10px 25px;
-      color: #6B6392;
-      background-color: white;
+      color: white;
+      background-color: #6B6392;
       text-align: center;
       cursor: pointer;
     }
 
     .hero-txt button:hover {
-      background-color: #6B6392;
-      color: white;
+      background-color: white;
+      color: #6B6392;
     }
 
 /*cards*/
