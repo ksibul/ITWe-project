@@ -210,7 +210,29 @@ body, html {
 
 /*footer*/
 
-    footer {
-        color: white;
-        background-color: #39325C;
-    }
+footer {
+  color: white;
+  background-color: #39325C;
+  width: 100%;
+  height: 300px;
+
+}
+.footer-column {
+  float: left;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/*responsive footer*/
+
+@media screen and (max-width: 700px) {
+  .footer-column {
+    width: 100%;
+  }
+}
