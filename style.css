@@ -4,8 +4,8 @@ body {
 }
 
 body, html {
-    font-family: Verdana, Helvetica, sans-serif;
-    height: 80%;
+    font-family: Helvetica, sans-serif;
+    height: 100%;
 }
 
 /* Navigation bar */
@@ -23,7 +23,11 @@ body, html {
       text-decoration: none;
       font-size: 14px;
       text-transform: uppercase;
-      font-family: Verdana;
+      font-family: Helvetica;
+    }
+
+    .nav a.icon {
+      display: none;
     }
 
     /* Hover */
@@ -67,7 +71,8 @@ body, html {
     .nav a.top-logo {
       color: white;
       font-size: 18px;
-      font-family: Copperplate;
+      font-family: Sansita One;
+      text-transform: unset;
     }
 
 /* The hero image */
