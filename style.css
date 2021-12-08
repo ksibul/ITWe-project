@@ -5,7 +5,17 @@ body {
 
 body, html {
     font-family: Helvetica, sans-serif;
-    height: 90%;
+    height: 80%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #39325C;
 }
 
 /* Navigation bar */
@@ -104,10 +114,10 @@ body, html {
       }
     }
 
-/* The hero image */
+/* The hero section */
     .hero-section {
       /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/house-of-gucci-hero.jpeg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/encanto-hero.jpeg");
 
       /* Set a specific height */
       height: 100%;
@@ -123,7 +133,7 @@ body, html {
     .hero-txt {
       text-align: center;
       position: absolute;
-      top: 50%;
+      top: 45%;
       left: 50%;
       transform: translate(-50%, -50%);
       color: white;
@@ -136,14 +146,14 @@ body, html {
       display: inline-block;
       padding: 10px 25px;
       color: white;
-      background-color: #6B6392;
+      background-color: #39325C;
       text-align: center;
       cursor: pointer;
     }
 
     .hero-txt button:hover {
-      background-color: white;
-      color: #6B6392;
+      background-color: #6B6392;
+      color: white;
     }
 
 /*cards*/
@@ -229,13 +239,47 @@ body, html {
 }
 
 
-/*testing*/
+/*filter-section*/
+
+.filter-section {
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-section .list div {
+  box-shadow: 0 3px 6px 0 #CCC6D2;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 0 10% 0 10%;
+  width: 70%;
+}
+
+.filter-section h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .hidden {
   display: none;
 }
 
+.filter-section .list button {
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: #39325C;
+  cursor: pointer;
+  }
 
+.filter-section button:hover {
+  background-color: #6B6392;
+  color: white;
+}
 
 /*footer*/
 

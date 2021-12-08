@@ -17,7 +17,7 @@
 		<a class="link" href="#movie-theatres">Movie theatres</a>
 		<a class="link" href="#coming-soon">Coming soon</a>
 		<a class="link" href="#about-us">About us</a>
-		<input type="text" placeholder="Fast search">
+		<input type="text" placeholder="Search">
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<div></div>
 			<div></div>
@@ -38,8 +38,9 @@
 
 <div class="hero-section">
   <div class="hero-txt">
-    <h1>House Of Gucci (2021)</h1>
-    <p>When Patrizia Reggiani, an outsider from humble beginnings, marries into the Gucci family, her unbridled ambition begins to unravel their legacy and triggers a reckless spiral of betrayal, decadence, revenge, and ultimately...murder.</p>
+    <h1>Encanto</h1>
+    <h4>Walt Disney Animation Studios</h4>
+    <p>A young Colombian girl has to face the frustration of being the only member of her family without magical powers. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope.</p>
     <button>Get tickets</button>
   </div>
 </div>
@@ -48,7 +49,7 @@
 
 <div class="filter-section">
 
-	<h1>What to see?</h1>
+	<h2>What to see?</h2>
 
 	<div class="filters">
   <h3>Filters</h3>
@@ -56,15 +57,20 @@
 	  <button class="filter-option" data-filter="Arlington" onclick=filterMovies(event)>Arlington</button>
 	  <button class="filter-option" data-filter="Amarillo" onclick=filterMovies(event)>Amarillo</button>
 	  <button class="filter-option" data-filter="Lubbock" onclick=filterMovies(event)>Lubbock</button>
+	  <button class="filter-option" data-filter="FortWorth" onclick=filterMovies(event)>Fort Worth</button>
+	  <button class="filter-option" data-filter="Dallas" onclick=filterMovies(event)>Dallas</button>
 	</div>
 
 	<div class="list">
 	  <h3>Movies</h3>
-	  <div class="Dune Arlington">Dune</div>
-	  <div class="movie2 Lubbock">Movie2</div>
+	  <div class="Dune Arlington Dallas"> <h3>Dune</h3>
+			<p>Feature adaptation of Frank Herbert's science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.</p>
+	  	<button>Pick the time</button>
+	  </div>
+	  <div class="movie2 Lubbock Dallas">Movie2</div>
 	  <div class="movie3 Arlington">Movie3</div>
-	  <div class="movie4 Amarillo">Movie4</div>
-	  <div class="movie5 Amarillo Arlington">Movie5</div>
+	  <div class="movie4 Amarillo FortWorth Dallas">Movie4</div>
+	  <div class="movie5 Dallas FortWorth Amarillo Arlington">Movie5</div>
 	</div>
 
 	<script type="text/javascript">
@@ -84,41 +90,39 @@
 	</script>
 </div>
 
-<div class="search-section">
-
-</div>
-
 <br>
 <div class="card-section">
-	<h1>Coming soon</h1>
+	<h2>Coming soon</h2>
 	<div class="card-row">
 
 		<div class="column">
-		 <img src="img/encanto.jpeg" alt="Poster">
+		 <img src="img/west-side-story.png" alt="Poster">
 		 <div class="container">
-		   <h4><b>Encanto (2021)</b></h4>
-		   <p>Animation / Adventure / Comedy</p>
+		   <h4><b>West Side Story (2021)</b></h4>
+		   <p>Crime / Drama / Musical</p>
 		 </div>
 		</div>
 
 		<div class="column">
-		 <img src="img/dune.jpg" alt="Poster">
+		 <img src="img/sing-2.png" alt="Poster">
 		 <div class="container">
-		   <h4><b>Dune (2021)</b></h4>
-		   <p>Action / Adventure / Drama</p>
+		   <h4><b>Sing 2 (2021)</b></h4>
+		   <p>Animation / Adventure / Family</p>
 		 </div>
 		</div>
 
 		<div class="column">
-		 <img src="img/eternals.jpeg" alt="Poster">
+		 <img src="img/spider-man.png" alt="Poster">
 		 <div class="container">
-		   <h4><b>Eternals (2021)</b></h4>
-		   <p>Action / Adventure / Fantasy</p>
+		   <h4><b>Spider-Man: No Way Home (2021)</b></h4>
+		   <p>Action / Adventure / Sci-Fi</p>
 		 </div>
 		</div>
 	</div>
 
 <button>See more</button>
+
+<br>
 
 </div>
 
