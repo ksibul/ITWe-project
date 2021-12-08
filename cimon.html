@@ -52,34 +52,32 @@
 
 	<div class="filters">
   <h3>Filters</h3>
-  	<button class="filter-option" data-filter="*" onclick=filterAnimals(event)>All</button>
-	  <button class="filter-option" data-filter="walks" onclick=filterAnimals(event)>Walks</button>
-	  <button class="filter-option" data-filter="swims" onclick=filterAnimals(event)>Swims</button>
-	  <button class="filter-option" data-filter="flies" onclick=filterAnimals(event)>Flies</button>
+  	<button class="filter-option" data-filter="*" onclick=filterMovies(event)>All</button>
+	  <button class="filter-option" data-filter="Arlington" onclick=filterMovies(event)>Arlington</button>
+	  <button class="filter-option" data-filter="Amarillo" onclick=filterMovies(event)>Amarillo</button>
+	  <button class="filter-option" data-filter="Lubbock" onclick=filterMovies(event)>Lubbock</button>
 	</div>
 
 	<div class="list">
-	  <h3>Animals</h3>
-	  <div class="dog walks">Dog</div>
-	  <div class="eagle flies">Eagle</div>
-	  <div class="cow walks">Cow</div>
-	  <div class="shark swims">Shark</div>
-	  <div class="canary flies">Canary</div>
-	  <div class="human walks">Human</div>
-	  <div class="salamander swims walks">Salamander</div>
+	  <h3>Movies</h3>
+	  <div class="Dune Arlington">Dune</div>
+	  <div class="movie2 Lubbock">Movie2</div>
+	  <div class="movie3 Arlington">Movie3</div>
+	  <div class="movie4 Amarillo">Movie4</div>
+	  <div class="movie5 Amarillo Arlington">Movie5</div>
 	</div>
 
 	<script type="text/javascript">
-		function filterAnimals(e) {
-		  const animals = document.querySelectorAll(".list div");
+		function filterMovies(e) {
+		  const movies = document.querySelectorAll(".list div");
 		  let filter = e.target.dataset.filter;
 		  if (filter === '*') {
-		    animals.forEach(animal => animal.classList.remove('hidden'));
+		    movies.forEach(movie => movie.classList.remove('hidden'));
 		  }  else {
-		    animals.forEach(animal => {
-		      animal.classList.contains(filter) ? 
-		      animal.classList.remove('hidden') : 
-		      animal.classList.add('hidden');
+		    movies.forEach(movie => {
+		      movie.classList.contains(filter) ? 
+		      movie.classList.remove('hidden') : 
+		      movie.classList.add('hidden');
 		    });
 		  };
 		};
