@@ -206,7 +206,7 @@ h2 {
   color: white;
 }
 
-.container {
+.card-section .container {
     padding: 0 16px 16px;
 }
 
@@ -241,17 +241,28 @@ h2 {
 
 /*filter-section*/
 
+
 .filter-section {
   justify-content: center;
   align-items: center;
+  margin: 0 10% 0 10%;
+}
+
+.filter-section img {
+  height: 300px;
+  float: left;
+  border-radius: 5px 0 0 5px;
 }
 
 .filter-section .list div {
   box-shadow: 0 3px 6px 0 #CCC6D2;
   border-radius: 5px;
-  padding: 16px;
-  margin: 0 10% 0 10%;
-  width: 70%;
+  margin-bottom: 16px;
+}
+
+.filter-section .container {
+  height: 300px;
+  padding: 16px 16px 16px 220px;
 }
 
 .filter-section h2 {
