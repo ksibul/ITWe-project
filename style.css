@@ -140,20 +140,23 @@ h2 {
     }
 
     .hero-txt button {
+      text-transform: uppercase;
+      font-weight: bold;
       border: none;
       border-radius: 5px;
       outline: 0;
       display: inline-block;
       padding: 10px 25px;
-      color: white;
-      background-color: #39325C;
+      color: #39325C;
+      background-color: white;
       text-align: center;
       cursor: pointer;
     }
 
     .hero-txt button:hover {
-      background-color: #6B6392;
-      color: white;
+      color: #39325C;
+      background-color: white;
+      opacity: 80%;
     }
 
 /*cards*/
@@ -273,6 +276,18 @@ h2 {
 
 .hidden {
   display: none;
+}
+
+.filter-section .filters button {
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: #39325C;
+  cursor: pointer;
 }
 
 .filter-section .list button {
