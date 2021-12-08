@@ -36,7 +36,7 @@
 		}
 	</script>
 
-<div class="hero-img">
+<div class="hero-section">
   <div class="hero-txt">
     <h1>House Of Gucci (2021)</h1>
     <p>When Patrizia Reggiani, an outsider from humble beginnings, marries into the Gucci family, her unbridled ambition begins to unravel their legacy and triggers a reckless spiral of betrayal, decadence, revenge, and ultimately...murder.</p>
@@ -45,6 +45,47 @@
 </div>
 
 <br>
+
+<div class="filter-section">
+
+	<h1>What to see?</h1>
+
+	<div class="filters">
+  <h3>Filters</h3>
+  	<button class="filter-option" data-filter="*" onclick=filterAnimals(event)>All</button>
+	  <button class="filter-option" data-filter="walks" onclick=filterAnimals(event)>Walks</button>
+	  <button class="filter-option" data-filter="swims" onclick=filterAnimals(event)>Swims</button>
+	  <button class="filter-option" data-filter="flies" onclick=filterAnimals(event)>Flies</button>
+	</div>
+
+	<div class="list">
+	  <h3>Animals</h3>
+	  <div class="dog walks">Dog</div>
+	  <div class="eagle flies">Eagle</div>
+	  <div class="cow walks">Cow</div>
+	  <div class="shark swims">Shark</div>
+	  <div class="canary flies">Canary</div>
+	  <div class="human walks">Human</div>
+	  <div class="salamander swims walks">Salamander</div>
+	</div>
+
+	<script type="text/javascript">
+		function filterAnimals(e) {
+		  const animals = document.querySelectorAll(".list div");
+		  let filter = e.target.dataset.filter;
+		  if (filter === '*') {
+		    animals.forEach(animal => animal.classList.remove('hidden'));
+		  }  else {
+		    animals.forEach(animal => {
+		      animal.classList.contains(filter) ? 
+		      animal.classList.remove('hidden') : 
+		      animal.classList.add('hidden');
+		    });
+		  };
+		};
+	</script>
+</div>
+
 <div class="search-section">
 
 </div>
@@ -80,66 +121,6 @@
 	</div>
 
 <button>See more</button>
-
-</div>
-
-<div class="filter-section">
-
-	<h1>What to see?</h1>
-	<div id="button-container"> 
-		<button class="active-button" onclick="filterSelection('all')"> Show all</button>
-		<button class="button" onclick="filterSelection('city1')"> City 1</button>
-		<button class="button" onclick="filterSelection('city2')"> City 2</button>
-	</div>
-
-<div class= "container">
-	<div class="filter-city1">Movie 1</div>
-	<div class="filter-city2">Movie 2a</div>
-	<div class="filter-city2">Movie 2b</div>
-
-</div>
-
-<div class="testing">
-
-	<div class="list">
-	  <h3>Animals</h3>
-	  <div class="dog walks">Dog</div>
-	  <div class="eagle flies">Eagle</div>
-	  <div class="cow walks">Cow</div>
-	  <div class="shark swims">Shark</div>
-	  <div class="canary flies">Canary</div>
-	  <div class="human walks">Human</div>
-	  <div class="salamander swims walks">Salamander</div>
-	</div>
-
-	<div class="filters">
-  <h3>Filters</h3>
-	  <button class="filter-option" data-filter="walks" onclick=filterAnimals(event)>Walks</button>
-	  <button class="filter-option" data-filter="swims" onclick=filterAnimals(event)>Swims</button>
-	  <button class="filter-option" data-filter="flies" onclick=filterAnimals(event)>Flies</button>
-	  <button class="filter-option" data-filter="*" onclick=filterAnimals(event)>All</button>
-	</div>
-
-	<script type="text/javascript">
-		function filterAnimals(e) {
-		  const animals = document.querySelectorAll(".list div");
-		  let filter = e.target.dataset.filter;
-		  if (filter === '*') {
-		    animals.forEach(animal => animal.classList.remove('hidden'));
-		  }  else {
-		    animals.forEach(animal => {
-		      animal.classList.contains(filter) ? 
-		      animal.classList.remove('hidden') : 
-		      animal.classList.add('hidden');
-		    });
-		  };
-		};
-	</script>
-
-	
-
-</div>
-
 
 </div>
 
