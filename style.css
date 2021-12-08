@@ -84,6 +84,26 @@ body, html {
       text-transform: unset;
     }
 
+  /*search bar*/
+
+    /* Style the search box inside the navigation bar */
+    .nav input[type=text] {
+      float: right;
+      padding:6px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 18px;
+      margin-right:2%;
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    @media screen and (max-width: 850px) {
+      .nav input[type=text] {
+        display: none;
+      }
+    }
+
 /* The hero image */
     .hero-img {
       /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
