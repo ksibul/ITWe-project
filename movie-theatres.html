@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	
+
 <nav>
 	<div class="nav" id="mynav">
 		<a class="top-logo" href="cimon.html">Cimon</a>
@@ -38,57 +38,6 @@
 	</script>
 </nav>
 
-<br>
-
-<div class="filter-section">
-
-	<h2>What's on?</h2>
-
-	<div class="filters">
-  <h3>Choose your city:</h3>
-  	<button class="filter-option" data-filter="*" onclick=filterMovies(event)>All</button>
-	  <button class="filter-option" data-filter="Arlington" onclick=filterMovies(event)>Arlington</button>
-	  <button class="filter-option" data-filter="Amarillo" onclick=filterMovies(event)>Amarillo</button>
-	  <button class="filter-option" data-filter="Lubbock" onclick=filterMovies(event)>Lubbock</button>
-	  <button class="filter-option" data-filter="FortWorth" onclick=filterMovies(event)>Fort Worth</button>
-	  <button class="filter-option" data-filter="Dallas" onclick=filterMovies(event)>Dallas</button>
-	</div>
-<br>
-	<div class="list">
-	  <div class="Dune Arlington Dallas"> <img src="img/dune.jpg" alt="Poster"> 
-	  	<div class="container">
-	  	<h3>Dune</h3>
-			<p>Feature adaptation of Frank Herbert's science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.</p>
-	  	<button>Pick the time</button>
-	  	</div>
-	  </div>
-	  <div class="movie2 Lubbock Dallas"> 
-	  	<h3>Movie2</h3>
-			<p>Feature adaptation of Frank Herbert's science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.</p>
-		</div>
-	  <div class="movie3 Arlington">Movie3</div>
-	  <div class="movie4 Amarillo FortWorth Dallas">Movie4</div>
-	  <div class="movie5 Dallas FortWorth Amarillo Arlington">Movie5</div>
-	</div>
-
-	<script type="text/javascript">
-		function filterMovies(e) {
-		  const movies = document.querySelectorAll(".list div");
-		  let filter = e.target.dataset.filter;
-		  if (filter === '*') {
-		    movies.forEach(movie => movie.classList.remove('hidden'));
-		  }  else {
-		    movies.forEach(movie => {
-		      movie.classList.contains(filter) ? 
-		      movie.classList.remove('hidden') : 
-		      movie.classList.add('hidden');
-		    });
-		  };
-		};
-	</script>
-</div>
-
-<br>
 <div class="card-section">
 	<h2>Coming soon</h2>
 	<div class="card-row">
