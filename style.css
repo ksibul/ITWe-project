@@ -159,6 +159,7 @@ h2 {
       opacity: 80%;
     }
 
+
 /*cards*/
 
 * {
@@ -292,7 +293,7 @@ h2 {
   cursor: pointer;
 }
 
-.filter-section .list button {
+.time {
   border-radius: 5px;
   text-align: center;
   border: none;
@@ -307,6 +308,29 @@ h2 {
 .filter-section button:hover {
   background-color: #6B6392;
   color: white;
+}
+
+.last {
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+  }
+
+.last :hover {
+  background-color: transparent;
+  color: black;
+  text-decoration: underline;
+}
+
+.filter-section .container img {
+  height: 14px;
+  margin: 0 6px 0 0;
 }
 
 /*footer*/
