@@ -193,7 +193,7 @@ h2 {
 .introduction {
   float: left;
   text-align: center;
-  margin: 0 11%;
+  margin: 0 11% 0 11%;
 }
 
 .card-section h5 {
@@ -288,7 +288,7 @@ h2 {
 .filter-section {
   justify-content: center;
   align-items: center;
-  margin: 0 10% 0 10%;
+  margin: 0 11% 0 11%;
 }
 
 .filter-section img {
@@ -372,7 +372,63 @@ h2 {
   margin: 0 6px 0 0;
 }
 
-/*footer*/
+/* Newsletter banner */
+
+      .newsletter-section {
+      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+      background: #39325C;
+      margin-right: 11%;
+      margin-left: 11%;
+      border-radius: 5px;
+
+      /* Position and center the image to scale nicely on all screens */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+        /* Place text in the middle of the image */
+    .newsletter-txt {
+      text-align: left;
+      margin: 26px;
+      position: relative;
+      color: white;
+    }
+
+    .newsletter-txt button {
+      text-transform: uppercase;
+      font-weight: bold;
+      border-radius: 5px;
+      display: inline-block;
+      color: #39325C;
+      background-color: white;
+      text-align: center;
+      cursor: pointer;
+      padding: 8px;
+      margin-bottom: 36px;
+    }
+
+    .newsletter-txt button:hover {
+      color: #39325C;
+      background-color: white;
+      opacity: 80%;
+    }
+
+      .newsletter-section input[type=text] {
+      padding:8px;
+      margin: 0;
+      border-radius: 5px;
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    .newsletter-txt h1 {
+      font-size: 36px;
+      padding-top: 30px;
+    }
+
+/* Footer */
 
 footer {
   color: white;
