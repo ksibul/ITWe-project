@@ -452,11 +452,11 @@ footer a:-webkit-any-link {
 
 .footer-row {
   display: flex;
-  padding: 3%;
+  padding-left: 4%;
 }
 
 .footer-column {
-  padding: 26px 52px 0 26px;
+  padding: 2% 2% 2% 4%;
 }
 
 .copyright {
