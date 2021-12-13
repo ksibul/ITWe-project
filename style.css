@@ -240,7 +240,7 @@ h2 {
   color: white;
 }
 
-.card-section .container {
+.card-section #container {
     padding: 0 16px 16px;
 }
 
@@ -303,7 +303,7 @@ h2 {
   margin-bottom: 16px;
 }
 
-.filter-section .container {
+.filter-section #container {
   height: 300px;
   padding: 16px 16px 16px 220px;
 }
@@ -367,7 +367,7 @@ h2 {
   text-decoration: underline;
 }
 
-.filter-section .container img {
+.filter-section #container img {
   height: 14px;
   margin: 0 6px 0 0;
 }

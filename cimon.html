@@ -65,7 +65,7 @@
 <br>
 	<div class="list">
 	  <div class="Dune Arlington Dallas"> <img src="img/dune.jpg" alt="Poster"> 
-	  	<div class="container">
+	  	<div class="Dune Arlington Dallas" id="container">
 	  	<h3>Dune</h3>
 	  	<p> <img src="img/star-icon.png"> 8.2</p>
 	  	<h4>Action / Adventure / Drama</h4>
@@ -79,7 +79,7 @@
 	  </div>
 
 	  <div class="Encanto Lubbock Dallas"> <img src="img/Encanto.jpeg" alt="Poster">
-	  	<div class="container">
+	  	<div class="Encanto Lubbock Dallas" id="container">
 	  	<h3>Encanto</h3>
 	  	<p> <img src="img/star-icon.png"> 7.6</p>
 	  	<h4>Animation / Adventure / Comedy</h4>
@@ -93,7 +93,7 @@
 	</div>
 
 	  <div class="House of Gucci Arlington"><img src="img/house-of-gucci.jpeg" alt="Poster"> 
-	  	<div class="container">
+	  	<div class="House of Gucci Arlington" id="container">
 	  	<h3>House of Gucci</h3>
 	  	<p> <img src="img/star-icon.png"> 7.0</p>
 	  	<h4>Crime / Drama</h4>
@@ -107,7 +107,7 @@
 	</div>
 
 	  <div class="Eternals Amarillo FortWorth Dallas"><img src="img/Eternals.jpeg" alt="Poster"> 
-	  	<div class="container">
+	  	<div class="Eternals Amarillo FortWorth Dallas" id="container">
 	  	<h3>Eternals</h3>
 	  	<p> <img src="img/star-icon.png"> 6.8</p>
 	  	<h4>Action / Adventure / Fantasy</h4>
@@ -121,7 +121,7 @@
 	</div>
 	
 	  <div class="Agnes Dallas FortWorth Amarillo Arlington"><img src="img/Agnes.jpeg" alt="Poster"> 
-	  	<div class="container">
+	  	<div class="Agnes Dallas FortWorth Amarillo Arlington" id="container">
 	  	<h3>Agnes</h3>
 	  	<p> <img src="img/star-icon.png"> 5.6</p>
 	  	<h4>Drama / Horror</h4>
@@ -146,7 +146,9 @@
 		      movie.classList.contains(filter) ? 
 		      movie.classList.remove('hidden') : 
 		      movie.classList.add('hidden');
-		    });
+		    })
+		    ;
+		    console.log(movies);
 		  };
 		};
 	</script>
