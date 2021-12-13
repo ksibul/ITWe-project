@@ -38,6 +38,10 @@ h2 {
       font-family: Helvetica;
     }
 
+    .nav #active {
+      background-color: #6B6392;
+    }
+
     .nav a.icon {
       display: none;
     }
