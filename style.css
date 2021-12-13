@@ -248,6 +248,10 @@ h2 {
     padding: 0 16px 16px;
 }
 
+.card-section .container {
+    padding: 0 16px 16px;
+}
+
 .column {
   box-shadow: 0 3px 6px 0 #CCC6D2;
   border-radius: 5px;
